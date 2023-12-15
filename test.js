@@ -73,7 +73,7 @@ export function parseUrlToObj(url){
       host: match[4],
       path: match[5],
       protocol: match[2],
-      relative: match[5] + query + fragment, // everything minus origin
+      relative: match[5] + query + fragment, // everything minus origin sdsadasd 
     };
   }
 
