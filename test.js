@@ -74,6 +74,7 @@ export function parseUrlToObj(url){
       path: match[5],
       protocol: match[2],
       relative: match[5] + query + fragment, // everything minus origin sdsadasd 
+      relative: match[5] + query + fragment, // everything minus origin的撒大苏打实打实的
     };
   }
 
